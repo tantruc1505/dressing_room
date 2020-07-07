@@ -7,7 +7,7 @@ class General extends Component {
     
     render() {
         return (
-            <div className="General">
+            <div className="General" style={{overflow:'hidden'}}>
                 <Body item={this.props.choosenItem} />
             </div>
         );
