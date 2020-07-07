@@ -29,7 +29,7 @@ class Button extends Component {
                 href={`#${this.props.tabName}`}
                 data-toggle="tab"
             >
-                <div className="hidden-xs">{this.props.NameButton}</div>
+                <div className="">{this.props.NameButton}</div>
             </button>
         </div>
         );

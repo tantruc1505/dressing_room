@@ -39,7 +39,9 @@ class TabPane extends Component {
 
         return (
             <div className="tab-pane fade in" id={this.props.tabName}>
-                {ShowArrItem}
+                <div className="row">
+                    {ShowArrItem}
+                </div>
             </div>
         );
     }

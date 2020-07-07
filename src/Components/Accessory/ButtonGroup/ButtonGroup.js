@@ -11,9 +11,8 @@ const ButtonGroup = () => {
     
         return (
             <div
-            className="btn-pref btn-group btn-group-justified btn-group-lg"
+            className="btn-pref"
             role="group"
-            aria-label="..."
         >
             {listButton}
         </div>

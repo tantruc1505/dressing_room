@@ -33,12 +33,13 @@ class App extends Component {
         <h1>Phong Thay Do</h1>
         <button onClick={this.reset} className="mt-3">Reset</button>
         <div className="row" style={ {marginTop:"30px"} }>
-          <div className="col-md-8">
-            <ButtonGroup/>
-            <Accessory transferItem={this.transferItem} choosenItem={this.state.choosenItem}/>
+        <ButtonGroup/>
+          <div style={{marginTop:'20px'}}></div>
+          <div className="col-lg-4 col-md-6">
+          <General choosenItem={this.state.choosenItem}/>
           </div>
-          <div className="col-md-4">
-            <General choosenItem={this.state.choosenItem}/>
+          <div className="col-lg-8 col-md-6">
+            <Accessory transferItem={this.transferItem} choosenItem={this.state.choosenItem}/>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ class Item extends Component {
 
     render() {
         return (
-        <div className="col-md-4" style={{marginTop:'50px'}}>
+        <div className="col-md-4 col-xs-6" style={{marginTop:'50px'}}>
             <img src={this.props.srcImg} alt={this.props.name} />
             <button style={{marginLeft:'10px'}} onClick={this.getItem}>Thay Do</button>
          </div>

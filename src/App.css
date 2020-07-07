@@ -31,6 +31,23 @@ h1{
   background:transparent;
 }
 
+.btn-group-justified{
+  width:auto !important;
+}
+button{
+  border: 1px solid #0000002e !important;
+  padding: 7px 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 10px !important;
+  margin-top:10px;
+}
+.btn-group-vertical>.btn, .btn-group>.btn{
+  width: 100px;
+  margin-left: 5px !important;
+  margin-bottom: 5px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
